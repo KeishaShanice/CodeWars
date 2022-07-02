@@ -24,9 +24,9 @@ const stringToNumber = function(str){
 /*
     PREP
     Problem: Change a string to an integer
-    P: string
-    R: return integer
-    E:
+    Parameter: string
+    Return: return integer
+    Example:
         function transform(string){
             
             return num;

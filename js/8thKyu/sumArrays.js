@@ -20,6 +20,7 @@
 */
 
 function sum(numbers){
+    // "use strict";
     let sumOfNum = 0;
 
     for (let i = 0; i < numbers.length; i++){
@@ -43,7 +44,7 @@ console.log(sum([-2.398])); //-2.398
     PREP
     Problem: Add the numbers in an array
     Parameter: array of integers
-    Return: return integer sum, return 0 if empty, return return integer if length = 1
+    Return: return integer sum, return 0 if empty, return integer if length = 1
     Example:
         function sumArray(array){
             let num = 0;
